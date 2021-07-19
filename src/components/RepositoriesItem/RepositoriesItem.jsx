@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.scss';
-import { useHistory } from 'react-router';
+import { useHistory } from 'react-router-dom';
 import { PATHS } from '../../constants';
 import { Button } from '../Button';
 
