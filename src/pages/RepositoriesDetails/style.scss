@@ -1,0 +1,17 @@
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__str{
+        font-weight: 600;
+        font-size: 20px;
+        padding: 0.5rem 0;
+    }
+
+    &__avatar{
+        height: 250px;
+        object-fit: cover;
+    }
+}

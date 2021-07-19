@@ -1,0 +1,36 @@
+.search-form {
+    border-bottom: 1px solid white;
+    &__container{
+        margin: 1rem 0;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 30px;
+    }
+
+    &__field{
+        padding: 15px 10px;
+        border: none;
+        font-size: 20px;
+        max-height: 80px;
+        height: 100%;
+        &::placeholder{
+            font-size: 20px;
+        }
+    }
+
+    &__error {
+        font-weight: 600;
+        color: red;
+        font-size: 24px;
+    }
+
+    label{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 568px){
+    .search-form__container{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,30 @@
+.button {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: inherit;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .1s ease;
+
+    &:hover {
+        transform: scale(1.02)
+    }
+
+    //STYLES
+    &--primary {
+        background-color: rgb(75, 13, 156);
+    }
+
+    //SIZES
+
+    &--large {
+        padding: 25px 35px;
+        font-size: 24px;
+    }
+
+    &--medium {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+}

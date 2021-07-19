@@ -1,0 +1,16 @@
+.saved {
+    &__list {
+        border-top: 1px solid rgba(255, 255, 255, 0.192);
+        padding: 2rem 1rem;
+    }
+
+    &__item {
+        cursor: pointer;
+        margin: 1rem 0;
+        list-style: decimal;
+
+        &:hover {
+            color: darken($color: white, $amount: 25%);
+        }
+    }
+}
